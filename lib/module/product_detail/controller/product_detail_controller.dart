@@ -22,4 +22,9 @@ class ProductDetailController extends State<ProductDetailView>
 
   int currentIndex = 0;
   final CarouselController carouselController = CarouselController();
+
+  updateIndex(newIndex) {
+    currentIndex = newIndex;
+    setState(() {});
+  }
 }
